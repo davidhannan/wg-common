@@ -10,11 +10,17 @@ This metric will show many other projects are dependent upon the project. The id
 
 ## Implementation
 ### Aggregators:
-- Count: how many times a project has been forked
+- Count: how many times a project has been forked/cloned
 
-### Filters (optional)
+### Parameters:
+- Period: Recency of when forks and clones were made. Default: over all of time.
 
-### Visualizations (optional)
+### Filters
+- Activity on the project fork if applicable
+
+### Visualizations
+- Count over all of time
+- Count per month over all of time
 
 ### Tools Providing the Metric (optional)
 
